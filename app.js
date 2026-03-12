@@ -20,19 +20,19 @@ function getData() {
             <p class="text-gray-500 font-semibold text-[15px]">${item.email}</p>
           </div>
           <div class="flex justify-between items-center">
-            <p class="text-white font-semibold">Telefon</p>
+            <p class="text-white font-semibold">Phone</p>
             <p class="text-gray-500 font-semibold text-[15px]">${item.phone}</p>
           </div>
           <div class="flex justify-between items-center">
-            <p class="text-white font-semibold">Şirkət</p>
+            <p class="text-white font-semibold">Company</p>
             <p class="text-gray-500 font-semibold text-[15px]">${item.company.name}</p>
           </div>
           <div class="flex justify-between items-center">
-            <p class="text-white font-semibold">Şəhər</p>
+            <p class="text-white font-semibold">City</p>
             <p class="text-gray-500 font-semibold text-[15px]">${item.address.city}</p>
           </div>
           <div class="flex justify-between items-center">
-            <p class="text-white font-semibold">Sayt</p>
+            <p class="text-white font-semibold">Website</p>
             <p class="text-gray-500 font-semibold text-[15px]">${item.website}</p>
           </div>
         </div>
