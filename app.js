@@ -25,11 +25,11 @@ function getData() {
           </div>
           <div class="flex justify-between items-center">
             <p class="text-white font-semibold">Şirkət</p>
-            <p class="text-gray-500 font-semibold text-[15px]">${item.company}</p>
+            <p class="text-gray-500 font-semibold text-[15px]">${item.company.name}</p>
           </div>
           <div class="flex justify-between items-center">
             <p class="text-white font-semibold">Şəhər</p>
-            <p class="text-gray-500 font-semibold text-[15px]">${item.city}</p>
+            <p class="text-gray-500 font-semibold text-[15px]">${item.address.city}</p>
           </div>
           <div class="flex justify-between items-center">
             <p class="text-white font-semibold">Sayt</p>
